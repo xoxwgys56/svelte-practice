@@ -1,5 +1,6 @@
 <script lang="ts">
   export let name: string;
+  import Mark from "./Mark.svelte";
 </script>
 
 <main>
@@ -8,6 +9,7 @@
     I build this website follow
     <a href="https://svelte.dev/tutorial"> Svelte tutorial </a>.
   </p>
+  <Mark />
 </main>
 
 <style>
